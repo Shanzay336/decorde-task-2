@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Web Layout</title>
+  <!-- Google font import -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header and navigation bar -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">DecoLab</a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero section with heading, description, and button -->
+  <section id="home" class="hero-section">
+    <div class="container hero-content">
+      <div class="hero-copy">
+        <p class="eyebrow">Responsive Web Layout</p>
+        <h1>Build modern websites that adapt beautifully on any screen.</h1>
+        <p class="hero-text">Design clean experiences with semantic HTML5, CSS Grid, and Flexbox. Perfect for agencies, startups, and portfolio projects.</p>
+        <a href="#services" class="btn btn-primary">Explore Services</a>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-card">
+          <span>Modern design</span>
+          <p>Fast, mobile-friendly, and professional layouts for every device.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About section -->
+  <section id="about" class="about-section">
+    <div class="container section-grid">
+      <div class="section-heading">
+        <p class="eyebrow">About Us</p>
+        <h2>We craft beautiful and responsive digital experiences.</h2>
+      </div>
+      <div class="about-content">
+        <p>At DecoLab, we believe a website should look elegant and perform flawlessly across devices. We use purposeful spacing, intuitive navigation, and polished visuals to help your brand stand out.</p>
+        <p>Our approach combines modern CSS techniques with semantic markup to create accessible, scalable, and engaging web pages.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services section with 4 responsive cards -->
+  <section id="services" class="services-section">
+    <div class="container">
+      <div class="section-heading center-heading">
+        <p class="eyebrow">Services</p>
+        <h2>Solutions designed for growth and performance.</h2>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <h3>Responsive Design</h3>
+          <p>Create layouts that adapt seamlessly to mobile, tablet, and desktop screens.</p>
+        </article>
+        <article class="service-card">
+          <h3>UI & UX Strategy</h3>
+          <p>Carefully crafted interfaces that improve usability and strengthen your brand.</p>
+        </article>
+        <article class="service-card">
+          <h3>Performance Optimization</h3>
+          <p>Lightweight code and fast loading experiences for better engagement.</p>
+        </article>
+        <article class="service-card">
+          <h3>Maintenance Support</h3>
+          <p>Ongoing updates and improvements to keep your website polished and secure.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact" class="contact-section">
+    <div class="container section-grid">
+      <div class="section-heading">
+        <p class="eyebrow">Contact</p>
+        <h2>Ready to start your next project?</h2>
+      </div>
+      <div class="contact-card">
+        <p>Send us a message and we’ll help bring your ideas to life. Our team responds quickly and can guide you through the design process.</p>
+        <ul class="contact-list">
+          <li><strong>Email:</strong> hello@decolab.com</li>
+          <li><strong>Phone:</strong> +1 (555) 123-4567</li>
+          <li><strong>Location:</strong> Remote-first, global team</li>
+        </ul>
+        <a href="mailto:hello@decolab.com" class="btn btn-secondary">Email Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 DecoLab. Crafted with care using HTML5 and CSS3.</p>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
